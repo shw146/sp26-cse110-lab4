@@ -1,0 +1,2 @@
+1. Taking the .value of something always returns it as a string. This caused the two numbers in the addition to take on the forms of strings and forced the addition operator to act as a concatenation rather than arithmetic addition.
+2. To fix this issue, we just have to explicitly cast the two inputs as numbers using Number(input)
